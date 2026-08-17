@@ -1,0 +1,18 @@
+# Local, installation-specific material. This is intentionally not public.
+home-spec/
+private/
+local/
+
+# Secrets, state, and generated data
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+backups/
+models/
+*.pem
+*.key
+
+# Operating-system files
+.DS_Store
